@@ -1,48 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .footer {
   position: absolute;
   bottom: 0;
-  width:100%;
+  width: 100%;
   height: 50px;
   background-color: black;
   text-align: center;
   color: white;
+}
+.container {
+  margin-top: 5vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+/* 
+background-image: url('https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg');
+    width: 100%!important;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ */
+
+h1, h2{
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+
+.text {
+  height: 50px;
+  border: none !important;
+  border-bottom: 2px solid rgb(0, 0, 0) !important;
+  margin-bottom: 3vh !important;
+}
+
+.form {
+  margin-top: 10vh;
+  margin-left: 5vw;
+  padding: 20px;
+  /*   border: 1px solid #000000; */
+}
+
+.submit {
+  padding: 12px 24px;
+  width: 80%;
+  background-color: green !important;
+}
+button {
+  background-color: green !important;
+  color: white;
+}
+
+/* header */
+.u-btn {
+  margin-left: 5px;
+  color: white !important;
+}
+
+/* footer */
+.f-text {
+  color: rgb(245, 245, 245);
+  font-size: 3vh;
+}
+
+/* button */
+.btn {
+  height: 50px;
+}
+
+.background {
+  background-image: url("https://wallpaperchat.com/walls/full/c/3/6/424117.jpg");
+  width: 100% !important;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }

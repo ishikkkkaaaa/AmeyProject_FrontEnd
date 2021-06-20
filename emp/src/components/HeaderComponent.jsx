@@ -49,7 +49,7 @@ export default class HeaderComponent extends Component {
         className="mr-sm-2"
         aria-label="Search"
       />
-      <Button variant="outline-success">Search</Button>
+      <Button className="u-btn" variant="">Search</Button>
     </Form>
               </Navbar.Collapse>
            
